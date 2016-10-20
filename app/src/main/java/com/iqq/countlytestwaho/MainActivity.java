@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         bn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 final TextView show = (TextView) findViewById(R.id.show);
-                show.setText("Hello Android~" + new java.util.Date());
+                show.setText("Hello Android~ and hello my first git project" + new java.util.Date());
             }
         });
     }
